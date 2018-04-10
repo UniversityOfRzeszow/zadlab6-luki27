@@ -18,7 +18,7 @@ public class Punkt {
         counter++;
         last_point = this;
     }
-
+    //pokazuje ostatni objekt
     public static void PokazOstatniObiekt() {
         System.out.println("Klasa Punkt o współrzędnych (x = " + last_point.x
                 + " y = " + last_point.y + ""
@@ -26,6 +26,7 @@ public class Punkt {
                 + " " + last_point.counter + " obiekt tej klasy.");
     }
     
+    //wypisuje współrzędne
     @Override
     public String toString(){
         String s = "Klasa Punkt o współrzędnych (x = " + last_point.x
